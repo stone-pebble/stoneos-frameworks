@@ -520,3 +520,11 @@ android_app {
         "wmshell.protolog.pb",
     ],
 }
+
+// StoneOS additions
+filegroup {
+    name: "StoneFiles",
+    srcs: [
+        "src/com/android/systemui/stone/*.java",
+    ],
+}
