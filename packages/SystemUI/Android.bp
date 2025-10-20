@@ -93,6 +93,7 @@ android_library {
         "src/**/*.kt",
         "src/**/*.java",
         "src/**/I*.aidl",
+        "src/com/android/systemui/stone/*.java",
         ":ReleaseJavaFiles",
         "compose/features/src/**/*.kt",
         "compose/facade/enabled/src/**/*.kt",
@@ -521,10 +522,4 @@ android_app {
     ],
 }
 
-// StoneOS additions
-filegroup {
-    name: "StoneFiles",
-    srcs: [
-        "src/com/android/systemui/stone/*.java",
-    ],
-}
+
